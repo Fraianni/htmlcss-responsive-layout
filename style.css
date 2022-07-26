@@ -180,7 +180,7 @@ section:nth-of-type(even) {
 
 .strategic-planning {
     padding: 20px 20px;
-
+    flex-direction: column;
 }
 
 .strategic-planning img {
@@ -516,6 +516,41 @@ footer a {
 
     #product-presentation .column:first-child .card {
         flex-direction: row;
+    }
+
+    /** strategic planning **/
+
+    .strategic-planning {
+        flex-direction: row;
+        justify-content: space-around
+    }
+
+    .strategic-card {
+        width: 50%;
+    }
+
+    .app-developement-card {
+        width: 25%;
+    }
+
+    /** benefits **/
+
+    .benefits-card {
+        width: calc(100% / 3 - 100px);
+    }
+
+    /** about us **/
+
+    .about-us {
+        justify-content: space-around;
+    }
+
+    .about-text {
+        width: 50%;
+    }
+
+    .about-description {
+        width: 25%;
     }
 
 }

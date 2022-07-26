@@ -100,6 +100,10 @@ header {
     z-index: 100;
 }
 
+.header-div {
+    justify-content: space-between;
+}
+
 header a {
     color: white;
     text-decoration: none;
@@ -514,6 +518,10 @@ footer a {
 }
 
 @media screen and (min-width: 1200px) {
+
+    .header-div {
+        justify-content: space-around;
+    }
 
     .menu .fa-bars {
         display: none;

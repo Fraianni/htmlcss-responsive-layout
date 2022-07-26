@@ -18,6 +18,11 @@ ul {
     list-style-type: none;
 }
 
+p {
+    line-height: 1.5rem;
+    font-style: italic;
+}
+
 
 
 /***** utilities *****/
@@ -25,6 +30,14 @@ ul {
 .container {
     width: 100%;
     padding: 0 20px;
+}
+
+.white-text {
+    color: white;
+}
+
+.violet-text {
+    color: #9792e4;
 }
 
 
@@ -51,6 +64,8 @@ ul {
 .justify-space-between {
     justify-content: space-between;
 }
+
+
 
 /** /flex **/
 
@@ -82,6 +97,7 @@ header {
     width: 100%;
     min-height: 80px;
     line-height: 80px;
+    z-index: 100;
 }
 
 .menu {
@@ -140,13 +156,10 @@ section:nth-of-type(even) {
 
 }
 
-.card p {
-    line-height: 1.5rem;
-    font-style: italic;
-}
+
 
 .app-store-card h3,
-p {
+.app-store-card p {
     width: 80%;
 }
 
@@ -159,12 +172,252 @@ p {
     align-items: center;
 }
 
-
-
 /* /product-presentation */
+
+
+
+/* Strategic planning*/
+
+.strategic-planning {
+    padding: 20px 20px;
+
+}
+
+.strategic-planning img {
+    margin-bottom: 50px;
+}
+
+.strategic-planning h2 {
+    margin-bottom: 30px;
+
+}
+
+.strategic-planning p {
+    margin-bottom: 20px;
+
+}
+
+.app-developement-card {
+    background-color: white;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.app-developement-card div {
+    text-align: center;
+}
+
+#arrow-down {
+    background-color: #9792e4;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+}
+
+/* /Strategic planning */
+
+
+
+/* Testimonials */
+
+.testimonials {
+    text-align: center;
+
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: #9792e4;
+    margin: 30px 0px;
+}
+
+.testimonials-card {
+    margin: 40px 0px;
+    padding: 20px 0px;
+    background-color: #9792e4;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+
+.testimonial-img {
+    clip-path: circle(50%);
+    margin-bottom: 10px;
+}
+
+.testimonials-card P {
+    margin: 20px 0px;
+}
+
+
+/* /Testimonials */
+
+/* Benefits */
+
+#benefits-section {
+    padding-bottom: 30px;
+}
+
+.benefits {
+    text-align: center;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+.benefits>h2 {
+    color: white;
+
+}
+
+.cards {
+    flex-direction: column;
+}
+
+.benefits-card {
+    background-color: white;
+    padding: 20px;
+    color: #9792e4;
+    text-align: left;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.benefits-card>h1 {
+    line-height: 50px;
+}
+
+.benefits-card-paragraph {
+    color: black;
+    margin: 30px 0px;
+}
+
+.benefits-button {
+    background-color: #9792e4;
+    padding: 5px 50px;
+    border-radius: 16px;
+    border: none;
+    color: white;
+}
+
+/* /Benefits */
+
+/*  About us*/
+
+.about-us {
+    flex-direction: column;
+}
+
+.about-text>p:first-of-type {
+    margin-bottom: 30px;
+}
+
+.about-us h2 {
+    margin-bottom: 30px;
+}
+
+.about-img {
+
+    width: 50%;
+
+}
+
+.about-img img {
+    border-radius: 50%;
+}
+
+.about-us .fa-quote-left {
+
+    color: #9792e4;
+}
+
+.about-description {
+    flex-direction: column;
+}
+
+.about-description p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+.about-button {
+    background-color: #9792e4;
+    padding: 5px 30px;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+/* /About us */
+
+/* Get started */
+
+.get-started {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.get-started h5 {
+    color: whitesmoke;
+    margin-bottom: 30px;
+
+}
+
+.get-started h2 {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+}
+
+.get-started h1 {
+    color: orange;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.get-started-button {
+    margin-top: 30px;
+    background-color: white;
+    color: #9792e4;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 50px;
+}
+
+.copyright-text {
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 30px;
+}
+
+
+
+/* /Get started */
 
 footer {
     background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#text-footer {
+    margin-bottom: 40px;
+}
+
+
+
+
+footer a {
+    color: #9792e4;
 }
 
 
@@ -183,6 +436,64 @@ footer {
 
     #product-presentation img {
         width: 50%;
+    }
+
+    .about-img {
+        width: 25%;
+    }
+
+    .planning-img-container {
+        justify-content: center;
+    }
+
+    #planning-img {
+        width: 50%;
+    }
+
+    .testimonials-card {
+        flex-direction: row;
+    }
+
+    .testimonials-card img {
+        width: 25%;
+    }
+
+    /*** benefits ***/
+
+    .benefits {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .benefits-card {
+        width: calc(50% - 20px);
+    }
+
+    /** about us**/
+    .about-us {
+        flex-direction: row;
+
+    }
+
+    .about-description {
+        width: 50%;
+        align-items: center;
+    }
+
+    .about-img {
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .about-text {
+        width: 80%;
+        margin-right: 20px;
     }
 
 

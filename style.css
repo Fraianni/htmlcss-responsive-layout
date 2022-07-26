@@ -554,27 +554,3 @@ footer a {
     }
 
 }
-
-
-
-
-
-
-/***** debug *****/
-
-.debug section {
-    min-height: 500px;
-}
-
-.debug footer {
-    min-height: 160px;
-}
-
-.debug .column {
-    min-height: 350px;
-    border: 1px dashed red;
-}
-
-.debug .card {
-    height: 100%;
-}

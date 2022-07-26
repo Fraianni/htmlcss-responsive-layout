@@ -100,6 +100,20 @@ header {
     z-index: 100;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+header button {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 0px 10px;
+    height: 3vh;
+}
+
 .menu {
     color: #fff;
 }
